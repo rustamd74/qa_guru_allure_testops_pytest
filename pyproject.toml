@@ -18,4 +18,5 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.pytest.ini_options]
+addopts = " --alluredir=allure-results"
 markers = "api web  regress  smoke  critical"
